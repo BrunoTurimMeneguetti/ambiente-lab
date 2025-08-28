@@ -109,6 +109,8 @@ public class AppBiblioteca {
         usuario1.emprestarLivro(livro2);
         usuario1.listarLivrosEmprestados();
         usuario2.listarLivrosEmprestados();
+        usuario1.devolverLivro(livro2);
+        usuario1.listarLivrosEmprestados();
     }
 }
     /* *************************************************** */
